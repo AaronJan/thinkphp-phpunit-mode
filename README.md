@@ -1,7 +1,5 @@
 # thinkphp-phpunit-mode
 
-***
-
 ## Intro
 
 ThinkPHP framework is mostly used by people who knows about Chinese language. So, try to learn some.
@@ -19,11 +17,11 @@ ThinkPHP framework is mostly used by people who knows about Chinese language. So
 
 
 	Module/                          # 模块目录
-	   	   App/
-		   	   Common/
-		       Conf/
-		       Lib/
-		       Tpl/
+	       App/
+	           Common/
+	           Conf/
+	           Lib/
+	           Tpl/
 	           Runtime/
 	       inc/                      # 本项目中的Inc文件夹
 	       src/                      # phpunit可能需要用到的
@@ -36,7 +34,6 @@ ThinkPHP framework is mostly used by people who knows about Chinese language. So
 ### 示例:
 
 `ExampleTest.php`
-
 
 	<?php
 	require('../inc/load_thinkphp.inc.php');
