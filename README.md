@@ -2,7 +2,7 @@
 
 ## Intro
 
-ThinkPHP framework is mostly used by people who knows about Chinese language. So, try to learn some.
+ThinkPHP framework is mostly used by people who knows about Chinese language. So this is only avaliable in Chinese language.
 
 
 起因是想用phpunit去测试ThinkPHP的Model和其他函数、库。做了一番搜索，发现都是用类似hack的手段去实现，觉得不够优雅。而后发现ThinkPHP有一个模式扩展，看了代码之后发现非常适合改造，于是就有了这个项目。
