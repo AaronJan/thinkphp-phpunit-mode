@@ -23,20 +23,19 @@ ThinkPHP framework is mostly used by people who knows about Chinese language. So
 	           Lib/
 	           Tpl/
 	           Runtime/
-	       inc/                      # 本项目中的Inc文件夹
-	       src/                      # phpunit可能需要用到的
+	       src/                      # phpunit可能需要用到的，本项目src文件夹中的文件放在这里
 	       tests/                    # 存放测试
 	
 将`Mode`文件夹中的文件放到`ThinkPHP/Extend/Mode`中；
 
-最后在`tests`目录下新建一个测试，在开头包含`inc/load_thinkphp.inc.php`即可。
+推荐使用phpunit.xml配置测试，在测试之前加载`src/load_thinkphp.php`。或者用其他方式手动加载。
 
-### 示例:
+### 手动加载示例:
 
 `ExampleTest.php`
 
 	<?php
-	require('../inc/load_thinkphp.inc.php');
+	require_once('../src/load_thinkphp.php'); //只能加载一次
 	
 	class ExampleTest extends PHPUnit_Framework_TestCase
 	{
