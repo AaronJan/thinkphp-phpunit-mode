@@ -1,4 +1,4 @@
-<phpunit bootstrap="./src/load_thinkphp.inc.php">
+<phpunit bootstrap="./src/load_thinkphp.php">
     <testsuites>
         <testsuite name="all">
             <directory>tests</directory>
