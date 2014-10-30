@@ -26,7 +26,9 @@ return array(
     ), 
 
     // 系统行为定义文件 [必须 支持数组直接定义或者文件名定义 ]
-    'extends'       =>    array(), 
+    'extends'       =>    array(
+    	MODE_PATH.'Phpunit/tags.php'
+    ), 
 
     // 项目应用行为定义文件 [支持数组直接定义或者文件名定义]
     'tags'          =>   array(), 
